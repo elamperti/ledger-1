@@ -398,8 +398,8 @@ acprep script, that does a lot of the footwork:
 
 See the `help` subcommand to `acprep`, which explains some of its many
 options.  You can run `make check` to confirm the result, and `make
-install` to install.  If these intructions do not work for you can check the
-`INSTALL.md` in the source directory for more up do date build instructions.
+install` to install.  If these instructions do not work for you, you can check the
+`INSTALL.md` in the source directory for more up to date build instructions.
 
 @node Getting help, Third-Party Ledger Tutorials, Building the program, Introduction to Ledger
 @section Getting help
@@ -432,7 +432,7 @@ available at @url{https://github.com/conservancy/npo-ledger-cli/}).  If
 you're looking for information about how to use Ledger's tagging system to
 handle invoicing, track expenses by program targets, and other such concepts,
 you might find the tutorial useful.  (Some of the auditor reporting scripts
-that relate to the aformentioned Ledger setup can be found
+that relate to the aforementioned Ledger setup can be found
 @var{contrib/non-profit-audit-reports/} in Ledger's own source repository.)
 
 @node Ledger Tutorial, Principles of Accounting with Ledger, Introduction to Ledger, Top
@@ -7791,7 +7791,7 @@ as one typical yearly expense.  For help on finding out what your
 average monthly expenses are for any category, use a command like:
 
 @smallexample @c command:validate
-$ ledger -p "this year" --monthly --average balance ^expenses
+$ ledger -p "this year" --monthly --average register ^expenses
 @end smallexample
 
 The reported totals are the current year's average for each account.
